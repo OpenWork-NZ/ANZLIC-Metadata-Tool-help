@@ -49,5 +49,6 @@
 1. Help for specific elements is available by clicking on the element name or field (Tooltips must be enabled)
 1. Deleting individual items - if a red X appears to the right of a line, this element may be deleted by clicking the red X
     1. Also applies to sections when allowed
+1. 
 
     
