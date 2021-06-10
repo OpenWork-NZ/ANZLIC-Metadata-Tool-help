@@ -90,7 +90,7 @@ The General tab holds most of the most common metadata for a resource. It consis
     * One value **Must** be selected from the provided dropdown list.
 * **Date** - The date at which the last update to the resource was made.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/Maintenance
-    * Use the provided date selector tools to populate. Must be populated if maintenance information is provided.
+    * Use the provided date selector tools to populate. **Must** be populated if maintenance information is provided.
 * **Maintenance note** - Textual information about the last update committed to a resource.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/Maintenance
     * This update note should include the name of the resource editor, when the update occurred and what changes were made.
@@ -104,7 +104,17 @@ The General tab holds most of the most common metadata for a resource. It consis
         * Use the _Date_ "+" button to add more dates if needed.
 
 ### Resource Identification
-*
+* **Identifier** - A unique identifier for the resource describe by this metadata record. 
+    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceIdentifier
+    * At least one resource identifier should be provided. 
+        * If useful, provide multiple entries.
+        * For service resources, the service http endpoint URL may serve as a useful identifier.
+* **Description** - A textual description of the nature and purpose of the provided resource identifier.
+    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceIdentifier
+    * Recommended for all resource identifier entries
+        * If a service endpoint, description may say "Service Endpoint URL"
+
+
 
 
 
