@@ -113,7 +113,26 @@ The General tab holds most of the most common metadata for a resource. It consis
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceIdentifier
     * Recommended for all resource identifier entries
         * If a service endpoint, description may say "Service Endpoint URL"
+## Service Tab (Only visible when editing Service Metadata records)
+The Service tab holds most important additional metadata elements needed for a service resource. It consist of two sections:
+* Service
+* Operation 
 
+When creating metadata for services, it is recommended that one metadata record be created for each service type provided by the resource. If a service offers a viewer and an API for data delivery, separate metadata records should be provided for each.
+
+### Service
+* **Service Type** - A name identifying the type of service provided by the described resource. Should be sourced from a controlled vocabulary.
+    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ServiceType
+    * One Service type entry **Must** be populated in a service metadata record.
+        * The value of this field should be populated with a selection from the provided "Recommended values" dropdown.
+        * If necessary, other values can be entered as free text.
+* **Service Type Version** - Provides search based on the value of the service type.
+    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ServiceTypeVersion
+    * One or more service type versions _May_ be provided if useful to allow discovery and use of resources based on the version of the service provided.
+* **Coupling Type** - Documents the relation of the service to associated data. May be "Tight", "Loose" or "Mixed".
+    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/CouplingType
+    * One selection **Must** be made from the three options provided in the dropdown.
+        * For tight couplings, a coupled resource **Must** be provided using the "Link to a dataset" button in the "Thumbnails & Distributions" sidebar section.
 
 
 
