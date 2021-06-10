@@ -133,6 +133,7 @@ When creating metadata for services, it is recommended that one metadata record 
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/CouplingType
     * One selection **Must** be made from the three options provided in the dropdown.
         * For tight couplings, a coupled resource **Must** be provided using the "Link to a dataset" button in the "Thumbnails & Distributions" sidebar section.
+* **Operations** -
 
 
 
