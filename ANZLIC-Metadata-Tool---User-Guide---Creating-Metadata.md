@@ -55,5 +55,17 @@
     1. The single caret in the blue circle on the lower left brings you to the top of the page.
     1. Also on the lower left is a hamburger menu button in a blue circle. This exposes or hides the sidebar navigator. This consists of a list of all expandable sections in a page. Clicking a section in this sidebar takes one to that section.
 
+## General Tab
+The General tab holds most of the most common metadata for a resource. It consist of the following sections:
+* General Information
+* Maintenance Information 
+* Key Dates
+* Resource Identification
+
+### General Information
+* **Title** - _Mandatory - single instance_ - the name by which the cited resource is known.
+    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceTitle
+
+
 
     
