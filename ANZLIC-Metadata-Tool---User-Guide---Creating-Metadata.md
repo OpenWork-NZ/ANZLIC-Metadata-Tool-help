@@ -63,13 +63,13 @@ The General tab holds most of the most common metadata for a resource. It consis
 * Resource Identification
 
 ### General Information
-* **Title** - the name by which the cited resource is known.
+* **Title** - The name by which the cited resource is known.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceTitle
     * Text field **Must** be populated with a single entry.
 * **Abstract** - Brief narrative summary of the content of the resource.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/Abstract.html
     * Text box **Must** be populated with a single entry.
-* **Purpose** - _Optional - single entry_ - Summary of the intentions with which the resource was developed.
+* **Purpose** - _Optional_ - Summary of the intentions with which the resource was developed.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/Purpose
     * Text box _May_ be populated with a single entry.
 * **Supplemental Information** - Any other descriptive information about the dataset.
@@ -98,7 +98,7 @@ The General tab holds most of the most common metadata for a resource. It consis
 ### Key Dates
 * **Date** - Important dates related to the resource.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/Maintenance
-    * At a minimum dates for _Creation_ and _Publication_ **Must** be provided. 
+    * As a minimum, dates for _Creation_ and _Publication_ **Must** be provided. 
         * Use the dropdown to select the appropriate Date type.
         * Use the provided date selector tools to populate date and, if needed, time. 
         * Use the _Date_ "+" button to add more dates if needed.
