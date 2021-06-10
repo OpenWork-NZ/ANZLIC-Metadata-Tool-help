@@ -49,6 +49,11 @@
 1. Help for specific elements is available by clicking on the element name or field (Tooltips must be enabled)
 1. Deleting individual items - if a red X appears to the right of a line, this element may be deleted by clicking the red X
     1. Also applies to sections when allowed
-1. 
+1. Page navigation aids. Useful for longer more complex metadata and small screens where visibility of all elements is difficult.
+    1. Collapsing and expanding sections is accomplished by clicking the caret at the left of the section name. 
+    1. Located in the upper left is a double caret in a blue circle. Clicking this collapses and expands all sections on a page.
+    1. The single caret in the blue circle on the lower left brings you to the top of the page.
+    1. Also on the lower left is a hamburger menu button in a blue circle. This exposes or hides the sidebar navigator. This consists of a list of all expandable sections in a page. Clicking a section in this sidebar takes one to that section.
+
 
     
