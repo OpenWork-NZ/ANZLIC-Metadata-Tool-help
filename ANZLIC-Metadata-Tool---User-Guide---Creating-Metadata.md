@@ -116,7 +116,7 @@ The General tab holds most of the most common metadata for a resource. It consis
 ## Service Tab (Only visible when editing Service Metadata records)
 The Service tab holds most important additional metadata elements needed for a service resource. It consist of two sections:
 * Service
-* Operation 
+* Contains Operation 
 
 When creating metadata for services, it is recommended that one metadata record be created for each service type provided by the resource. If a service offers a viewer and an API for data delivery, separate metadata records should be provided for each.
 
@@ -133,7 +133,36 @@ When creating metadata for services, it is recommended that one metadata record 
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/CouplingType
     * One selection **Must** be made from the three options provided in the dropdown.
         * For tight couplings, a coupled resource **Must** be provided using the "Link to a dataset" button in the "Thumbnails & Distributions" sidebar section.
-* **Operations** -
+### Contains Operation
+Each _Contains Operation_ instance describes one and only one method provided by the service.
+    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ContainsOperations.html
+* **Operation Name** - A unique identifier for this interface.
+    * A name for the operation **Must ** be provided in the provided text field.
+* **Distributed computing platform (DCP)** - DCP on which the operation has been implemented
+    * One value _Should_ be selected from provided dropdown.
+* **Operation Description** - Free text description of the intent and results of the operation.
+    * Provided text entry field _Should_ be populated with a short description of the purpose of the service.
+* **Connect point** - Address for connecting to the described service interface.
+    * **URL** - The address of the service endpoint **Must** be entered here.
+    * **Protocol** - The protocol of the service _Should_be populated using the dropdown to the right of this field.
+        * Free text entry maybe used if the appropriate protocol is not in the list.
+    * **Function** - A value _Should_ be selected from the dropdown that aligns with the service purpose.
+    * If additional connect points are needed for a service, the _Connect point_ "+" button will allow additional entries.
+    * **Not Recommended** - Addition operations provided by a service can be documented by clicking on the _Contains Operation_ "+" button.
+        * EMA guidance states that there should be one metadata entry for each service type.
+
+## Contacts
+This tab is used to capture:
+* Resource Contacts - Information about parties that have some responsibility to the resource described in the metadata.
+* Metadata Contacts - Information about parties that have some responsibility to the metadata record describing the resource.
+
+### Resource Contacts
+* **Point of Contact** - Contact information for those who provide a first point of contact related to the resource. 
+    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourcePointOfContact
+    * **Custodian** and a **Owner** contact information **Must** be provided.
+        * Use the _Search_ icon provided to select contacts from a list maintained by your administrator.
+        * if need be, this section 
+
 
 
 
