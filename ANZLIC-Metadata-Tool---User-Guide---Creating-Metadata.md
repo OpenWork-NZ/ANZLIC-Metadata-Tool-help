@@ -66,15 +66,19 @@ The General tab holds most of the most common metadata for a resource. It consis
 * **Title** - The name by which the cited resource is known.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceTitle
     * Text field **Must** be populated with a single entry.
+        * Overwrite any placeholder text from the template
 * **Abstract** - Brief narrative summary of the content of the resource.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/Abstract.html
     * Text box **Must** be populated with a single entry.
+        * Overwrite any placeholder text from the template
 * **Purpose** - _Optional_ - Summary of the intentions with which the resource was developed.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/Purpose
     * Text box _May_ be populated with a single entry.
+        * Overwrite any placeholder text from the template
 * **Supplemental Information** - Any other descriptive information about the dataset.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/DataIdentification.html
     * Text box _May_ be populated with a single entry.
+        * Overwrite any placeholder text from the template
 * **Topic category** - Main theme(s) of the dataset, selected from an official ISO list.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/TopicCategory
     * Tagged entry field must be populated with at least one entry. 
@@ -209,11 +213,11 @@ This page has one section _Resource Lineage_.
 ### Resource Lineage 
 * **Statement** - General explanation about the producer's knowledge about the lineage of the resource.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceLineage
-    * Overwrite the message in the textbox with details that provides useful background information about the resource.
+    * Overwrite the message in the text box with details that provides useful background information about the resource.
         * Or remove provided placeholder text if no lineage information is available and state why
 * **Source Description** - General explanation about the producer's knowledge about source information used to create the resource.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceLineage
-    * Overwrite the message in the textbox with details that provides useful source information about the resource.
+    * Overwrite the message in the text box with details that provides useful source information about the resource.
 
 ## Keyword Tab
 Keywords are the important ideas and topics that summarise and define what your resource is about. In most search engines, these are indexed and typically normalised to resemble the base word in order to capture variations. Keywords are useful in discovering and organising resources.
@@ -223,7 +227,24 @@ The Keyword page contains one Section - **Keywords**.
 ### **Keyword Thesaurus** tool guidance
 This tool allows keywords to be selected from a thesauri maintained by your administrator. This improves consistency, searchability, correctness and eases population of keyword information.
 
-To speed population of metadata with keywords, several thesauri have been preselected in the template.
+To speed population of metadata with keywords, several thesauri have been preselected in the template. 
+* The Thesaurus name appears above the _Search Keywords ..._ entry field
+* Click on the _Search Keywords ..._ entry field to produce a list of available keywords
+* Select a Keyword
+* If multiple keywords are needed from a thesaurus click on the _Search Keywords ..._ entry field again and select another keyword. It will appear in the same box
+* To remove a selected keyword, click on the "x" to the right of it.
+* **Hierarchical Thesauri**
+    * **Thesaurus** will label a select box if the controlled vocabulary has hierarchy and will contain the thesaurus name to expose options ![Thesaurus](/image/thesaurusTaxon.png)
+    * **Navigating a Thesaurus**
+        * Clicking the circled "+" ![Add Keyword](/image/keywordAdd.png) adds the keyword to the metadata
+        * Clicking on the concept text expands the concept
+            * _Except for "Current concept" which will add this keyword to the metadata_
+        * Clicking the _Parent concept_ text (if present) brings you to the that concept
+        * In the upper right, the "Display top concepts" button ![Top concept](/image/topConcept.png) returns the select to the top concept of the hierarchy
+        * In the upper right, the "Previous" button ![Previous concepts](/image/previousConcepts.png) displays a selectable list of previously viewed concepts
+
+
+
 
 
 ### Keywords
