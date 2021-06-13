@@ -221,7 +221,9 @@ This page has one section _Resource Lineage_.
 
 ## Keyword Tab
 Keywords are the important ideas and topics that summarise and define what your resource is about. In most search engines, these are indexed and typically normalised to resemble the base word in order to capture variations. Keywords are useful in discovering and organising resources.
-To be most useful to these purposes it is important that keywords used in metadata be consistent in spelling and definition. This is best done through the use of well managed controlled vocabularies. GeoNetwork supports the use of controlled vocabularies stored in internal **Thesauri**. The ANLIC Metadata tool makes heavy use of these vocabularies and is designed to encourage their use whenever possible. These keyword vocabularies are managed by your metadata administrator and sourced from external authoritative sources in alignment with other experts across the domain.
+
+To be most useful to these purposes it is important that keywords used in metadata be consistent in spelling and definition. This is best done through the use of well managed controlled vocabularies. GeoNetwork supports the use of controlled vocabularies stored in internal **Thesauri**. The ANZLIC Metadata tool makes heavy use of these vocabularies and is designed to encourage their use whenever possible. These keyword vocabularies are managed by your metadata administrator and sourced from external authoritative sources in alignment with other experts across the domain.
+
 The Keyword page contains one Section - **Keywords**. 
 
 To speed population of metadata with keywords, several thesauri have been preselected in the template. 
@@ -304,6 +306,42 @@ The Spatial page consist of three separate sections.
 ## Constraints Tab
 This page holds information about constraints that may apply to the resource or the metadata record itself.
 These constraints may be of a legal, security of other nature.
+
+###  **Constraints selection** tool guidance
+This tool allows constraints to be selected from a a managed directory maintained by your administrator. This improves consistency, searchability, correctness and eases population of constraint information. This is useful for both legal and security constraints which commonly have precise meanings. ![Basic constraints selection tool](/image/constraintsToolBasic.png)
+
+* This tool is applied to both Resource and Metadata constraints.
+* Both Security and Legal constraints can be sourced using this tool.
+* Basic Usage
+    * Clicking the "+" icon to the left presents a dropdown which allows the selection of _Constraints, Legal constraints_ or _Security constraints_.
+        * Selecting _Constraints_ creates an entry for addition disclaimers and limitations to be entered.
+        >NOTE: Do not create Legal or Security constraints using the "+" icon
+    * Legal and Security constraints may be selected using the searchable dropdown available by clicking the _Search by constraint statement ..._ field
+* Advanced usage
+    * Click on the spyglass icon ![spyglass](/image/spyglass.png) 
+    * Results may be restricted to either Legal or Security constraints by selecting the appropriate _Subtemplatetype_
+    * Select the desired constraint and click the "+" icon in the lower left.
+    >NOTE: Do not use the _Chain link_ icon
+
+
+### Resource constraints
+* **Use limitation** - holds general constraint information such as "Not to be used for navigation"
+    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceOtherConstraints.html
+    * Populate this field as needed with general restriction and disclaimer information
+    * Additional Use limitations may be added by selecting the _Constraints_ option under "+" icon
+
+* **Legal Constraints** - A table of legal constraints that apply to the cited resource
+    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceLegalConstraints
+    * This table should be populated using the **Constraints selection** tool guidance above
+
+* **Security Constraints** - A table of security constraints that apply to the cited resource
+    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceSecurityConstraints
+    * This table should be populated using the **Constraints selection** tool guidance above
+
+### Metadata constraints
+Metadata constraints are not as common as resource constraints and are often prepopulated in the template and do not need to be altered.
+Consult with your administrator for further guidance.
+    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/MetadataLegalConstraints and https://icsm-au.github.io/metadata-working-group/defs/MetadataSecurityConstraints
 
 
 
