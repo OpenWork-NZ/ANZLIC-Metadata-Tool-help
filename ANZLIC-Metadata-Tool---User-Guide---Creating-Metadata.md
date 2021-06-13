@@ -201,10 +201,19 @@ If a party is not available via search, do the following:
 * **Contact** Contact information for those parties that hold responsibilities related to the metadata record and its maintenance (Not the resource).
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/MetadataContact
     * Using the **Search for contact** tool guidance provided above, populate this table as many times as needed (one entry is common).
-    >NOTE: A bug in the GeoNetwork interface makes it necessary for their to be a blank record in the template. This appears in the table as a  "Point of contact" entry with "!Please remove" in as _Name_. After adding a valid contact to this table, remove this entry by clicking the red "X" that now will appear to the right on mouse over on this entry.
-        
+    >NOTE: A bug in the GeoNetwork interface makes it necessary for their to be a blank record in the template. This appears in the table as a  "Point of contact" entry with "!Please remove" in as _Name_. After adding a valid contact to this table, remove this entry by clicking the red "X" that now will appear to the right on mouse over on this entry.      
 
-
+## Lineage Tab
+Lineage is where information about resource provenance - the sources and methods used to create the resource - is captured.
+This page has one section _Resource Lineage_.
+### Resource Lineage 
+* **Statement** - General explanation about the producer's knowledge about the lineage of the resource.
+    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceLineage
+    * Overwrite the message in the textbox with details that provides useful background information about the resource.
+        * Or remove provided placeholder text if no lineage information is available and state why
+* **Source Description** - General explanation about the producer's knowledge about source information used to create the resource.
+    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceLineage
+    * Overwrite the message in the textbox with details that provides useful source information about the resource.
 
 
 
