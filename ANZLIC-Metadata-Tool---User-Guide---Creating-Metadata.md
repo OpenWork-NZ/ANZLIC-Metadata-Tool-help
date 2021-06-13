@@ -259,6 +259,29 @@ This tool allows keywords to be selected from a thesauri maintained by your admi
     * **Add new keyword** - allows the addition of free-text keywords. _Use Sparingly!_ 
         * Require selection of a keyword **Type** selected from a dropdown list
 
+## Spatial Tab
+The Spatial page consist of three separate sections.
+* **Extents** - Used for discovery purposes. Holds common term description of the the area of earth to which the resource pertains. 
+* **Resolution** - Provides a guide to the spatial scale at which the resource is meant to be used.
+* **Reference System** - Holds information about the standardised parameters used to store location information.
+
+### Extents
+* **Description** - Written explanation of the spatial and temporal extents of the resource.
+    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ExtentGeographicDescription
+    * Optional field to be used when verbal descriptions help explain the extents of a resource.
+        * When no text is present, clicking the boxed "+" under _Description_ exposes a text box to populate.
+* **Geographic bounding box** - provides a list of four values share in a common coordinate system which define a box containing the resource area of relevance.
+    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ExtentBoundingBox
+    * Geographic extents may be populated via two mechanisms
+        * **Choose a region** - provides a search box against a selected source and displays this on the map. ![Choose a region](/image/chooseRegion.png)
+        >NOTE: the geonames option is slow but comprehensive. The other reference internal files and are much quicker.
+        * The map may be directly edited by 
+            * Entering and adjusting coordinate values
+            * Manually drawing extents by selecting the _Draw extents_ button in the upper right and then navigating to you desired location and clicking and dragging a box over the desired location
+        >NOTE: If multiple, polygonal or other extents are needed, expert users can do so in the **Advanced** metadata editing interface.
+
+
+
 
 
 
