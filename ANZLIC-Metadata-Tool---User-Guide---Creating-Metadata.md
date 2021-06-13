@@ -333,6 +333,7 @@ This tool allows constraints to be selected from a a managed directory maintaine
 * **Legal Constraints** - A table of legal constraints that apply to the cited resource
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceLegalConstraints
     * This table should be populated using the **Constraints selection** tool guidance above
+    * The correct _Constraint application scope_ **Must** be selected the dropdown in the Legal constraints table
 
 * **Security Constraints** - A table of security constraints that apply to the cited resource
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceSecurityConstraints
