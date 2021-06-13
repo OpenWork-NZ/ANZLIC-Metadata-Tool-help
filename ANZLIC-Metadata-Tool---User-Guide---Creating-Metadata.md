@@ -156,12 +156,24 @@ This tab is used to capture:
 * Resource Contacts - Information about parties that have some responsibility to the resource described in the metadata.
 * Metadata Contacts - Information about parties that have some responsibility to the metadata record describing the resource.
 
+**_Search for contact_** tool guidance**
+This tool allows contacts to be selected from a list maintained by your administrator. This improves consistency, searchability, correctness and eases population of responsible party information.
+
+This tool can be used in two ways -
+1. Simple search
+    * In the "Search for contact" field, type the first few letters of the desired party.
+    * To the right of the desired entry select the appropriate role for the party by clicking either the "Chain link" or "+" icon. A new entry will appear in the table.
+1. Advanced search
+    * To the left of the "Search for contact" field, click the spyglass icon 
+* To use the _Search_ icon provided to select t
+    > NOTE: Do not use the "+" icon. A bug in GeoNetwork requires its presence while not allowing it to function properly. If a row tothe table is added with this method, only the _Role_ element will present. As usual, this row can be removed by clicking the red "X" to the right of the row.
+        * If a party is not available via search, type a "*" in the "Search for contact" box and select "**custom entry". Overwrite the provided fields with appropriate contact information. 
+
 ### Resource Contacts
 * **Point of Contact** - Contact information for those who provide a first point of contact related to the resource. 
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourcePointOfContact
     * **Custodian** and a **Owner** contact information **Must** be provided.
-        * Use the _Search_ icon provided to select contacts from a list maintained by your administrator.
-        * if need be, this section 
+        
 
 
 
