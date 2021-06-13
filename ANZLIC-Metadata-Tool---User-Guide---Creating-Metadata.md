@@ -138,8 +138,8 @@ When creating metadata for services, it is recommended that one metadata record 
     * One selection **Must** be made from the three options provided in the dropdown.
         * For tight couplings, a coupled resource **Must** be provided using the "Link to a dataset" button in the "Thumbnails & Distributions" sidebar section.
 
-### Contains Operation
-Each _Contains Operation_ instance describes one and only one method provided by the service.
+### Contains Operation 
+* Each _Contains Operation_ instance describes one and only one method provided by the service.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ContainsOperations.html
     * **Operation Name** - A unique identifier for this interface.
         * A name for the operation **Must ** be provided in the provided text field.
@@ -346,8 +346,14 @@ Consult with your administrator for further guidance.
 
 * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/MetadataLegalConstraints and https://icsm-au.github.io/metadata-working-group/defs/MetadataSecurityConstraints
 
+## Thumbnails & Distributions instructions
+After completing the tabs, the next step is to link the metadata to representational images (Thumbnails) and access points (Distributions). 
 
+### Link to an online resource
+* Add a distribution instructions
+* Add a thumbnail instructions
 
+### Link to a service (if dataset metadata) or Link to a dataset (if service metadata)
 
 
 
