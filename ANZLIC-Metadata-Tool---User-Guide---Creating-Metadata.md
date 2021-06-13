@@ -215,6 +215,18 @@ This page has one section _Resource Lineage_.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceLineage
     * Overwrite the message in the textbox with details that provides useful source information about the resource.
 
+## Keyword Tab
+Keywords are the important ideas and topics that summarise and define what your resource is about. In most search engines, these are indexed and typically normalised to resemble the base word in order to capture variations. Keywords are useful in discovering and organising resources.
+To be most useful to these purposes it is important that keywords used in metadata be consistent in spelling and definition. This is best done through the use of well managed controlled vocabularies. GeoNetwork supports the use of controlled vocabularies stored in internal **Thesauri**. The ANLIC Metadata tool makes heavy use of these vocabularies and is designed to encourage their use whenever possible. These keyword vocabularies are managed by your metadata administrator and sourced from external authoritative sources in alignment with other experts across the domain.
+The Keyword page contains one Section - **Keywords**. 
+
+### **Keyword Thesaurus** tool guidance
+This tool allows keywords to be selected from a thesauri maintained by your administrator. This improves consistency, searchability, correctness and eases population of keyword information.
+
+To speed population of metadata with keywords, several thesauri have been preselected in the template.
+
+
+### Keywords
 
 
 
