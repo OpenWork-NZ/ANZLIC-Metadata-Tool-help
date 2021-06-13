@@ -224,10 +224,11 @@ Keywords are the important ideas and topics that summarise and define what your 
 To be most useful to these purposes it is important that keywords used in metadata be consistent in spelling and definition. This is best done through the use of well managed controlled vocabularies. GeoNetwork supports the use of controlled vocabularies stored in internal **Thesauri**. The ANLIC Metadata tool makes heavy use of these vocabularies and is designed to encourage their use whenever possible. These keyword vocabularies are managed by your metadata administrator and sourced from external authoritative sources in alignment with other experts across the domain.
 The Keyword page contains one Section - **Keywords**. 
 
+To speed population of metadata with keywords, several thesauri have been preselected in the template. 
+
 ### **Keyword Thesaurus** tool guidance
 This tool allows keywords to be selected from a thesauri maintained by your administrator. This improves consistency, searchability, correctness and eases population of keyword information.
 
-To speed population of metadata with keywords, several thesauri have been preselected in the template. 
 * The Thesaurus name appears above the _Search Keywords ..._ entry field
 * Click on the _Search Keywords ..._ entry field to produce a list of available keywords
 * Select a Keyword
@@ -243,11 +244,21 @@ To speed population of metadata with keywords, several thesauri have been presel
         * In the upper right, the "Display top concepts" button ![Top concept](/image/topConcept.png) returns the select to the top concept of the hierarchy
         * In the upper right, the "Previous" button ![Previous concepts](/image/previousConcepts.png) displays a selectable list of previously viewed concepts
 
-
-
-
-
 ### Keywords
+* ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/Keywords.html
+* Each template metadata record provides a selection of thesauri from which keywords should be selected.
+    * For **Dataset** metadata these include:
+        * **Hazard type** - a list of common emergency management hazard types
+        * **Continents, countries, sea regions of the world.** - an international list of locations 
+            * Is a hierarchal thesaurus
+            * _May not be adequate to the local context. Consult your administrator_
+        * **Dataset Method** - four options _Modelled, Observed, Modelled and Observed, and other_
+        * **CAP-AU Compliance** - the nature of CAP compliance of the resource
+* **Descriptive keywords** options ![Descriptive keywords](/image/descriptiveKeywords.png)
+    * **Choose keywords from thesaurus** - provides a list of available thesauri. Selected thesaurus will be added to the page for further selection.
+    * **Add new keyword** - allows the addition of free-text keywords. _Use Sparingly!_ 
+        * Require selection of a keyword **Type** selected from a dropdown list
+
 
 
 
