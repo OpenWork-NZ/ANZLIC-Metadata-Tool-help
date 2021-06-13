@@ -137,16 +137,17 @@ When creating metadata for services, it is recommended that one metadata record 
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/CouplingType
     * One selection **Must** be made from the three options provided in the dropdown.
         * For tight couplings, a coupled resource **Must** be provided using the "Link to a dataset" button in the "Thumbnails & Distributions" sidebar section.
+
 ### Contains Operation
 Each _Contains Operation_ instance describes one and only one method provided by the service.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ContainsOperations.html
-* **Operation Name** - A unique identifier for this interface.
-    * A name for the operation **Must ** be provided in the provided text field.
-* **Distributed computing platform (DCP)** - DCP on which the operation has been implemented
-    * One value _Should_ be selected from provided dropdown.
-* **Operation Description** - Free text description of the intent and results of the operation.
-    * Provided text entry field _Should_ be populated with a short description of the purpose of the service.
-* **Connect point** - Address for connecting to the described service interface.
+    * **Operation Name** - A unique identifier for this interface.
+        * A name for the operation **Must ** be provided in the provided text field.
+    * **Distributed computing platform (DCP)** - DCP on which the operation has been implemented
+        * One value _Should_ be selected from provided dropdown.
+    * **Operation Description** - Free text description of the intent and results of the operation.
+        * Provided text entry field _Should_ be populated with a short description of the purpose of the service.
+    * **Connect point** - Address for connecting to the described service interface.
     * **URL** - The address of the service endpoint **Must** be entered here.
     * **Protocol** - The protocol of the service _Should_be populated using the dropdown to the right of this field.
         * Free text entry maybe used if the appropriate protocol is not in the list.
@@ -342,7 +343,8 @@ This tool allows constraints to be selected from a a managed directory maintaine
 ### Metadata constraints
 Metadata constraints are not as common as resource constraints and are often prepopulated in the template and do not need to be altered.
 Consult with your administrator for further guidance.
-    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/MetadataLegalConstraints and https://icsm-au.github.io/metadata-working-group/defs/MetadataSecurityConstraints
+
+* ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/MetadataLegalConstraints and https://icsm-au.github.io/metadata-working-group/defs/MetadataSecurityConstraints
 
 
 
