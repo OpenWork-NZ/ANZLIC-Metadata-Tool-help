@@ -41,7 +41,7 @@ This tool allows keywords to be selected from a thesauri maintained by your admi
 * **Descriptive keywords** (and Keyword Help) ![Descriptive keywords](/image/descriptiveKeywords.png) 
     >NOTE: Keyword help (this page) can be accessed through the Tooltip available here.
     * Options:
-    * **Choose keywords from thesaurus** - provides a list of available thesauri. Selected thesaurus will be added to the page for further selection.
-    * **Add new keyword** - allows the addition of free-text keywords. _Use Sparingly!_ 
-        * Require selection of a keyword **Type** selected from a dropdown list
+        * **Choose keywords from thesaurus** - provides a list of available thesauri. Selected thesaurus will be added to the page for further selection.
+        * **Add new keyword** - allows the addition of free-text keywords. _Use Sparingly!_ 
+            * Require selection of a keyword **Type** selected from a dropdown list
    
