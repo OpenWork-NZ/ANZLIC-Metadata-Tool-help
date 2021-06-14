@@ -41,7 +41,7 @@ If a party is not available via search, do the following:
     * Use the **Search for contact** tool guidance provided above
 
 ### Responsible party - _Name and position information for an individual or organisation that is responsible for the resource_
-* ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceResponsibleParty
+* **ICSM Guidance** - https://icsm-au.github.io/metadata-working-group/defs/ResourceResponsibleParty
 * Additional contacts ay be provided for parties that hold particular roles related to the resource. Any number may be added.
     * Responsible party contacts may be the same as parties cited in _Point of contact_ or _Metadata Contacts_
     * Use the **Search for contact** tool guidance provided above
@@ -49,6 +49,6 @@ If a party is not available via search, do the following:
 ## Metadata Contacts
 ### Contact - _Contact information for those parties that hold responsibilities related to the metadata record and its maintenance_ 
 >NOTE: Not to be used for resource contact information
-* ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/MetadataContact
+* **ICSM Guidance** - https://icsm-au.github.io/metadata-working-group/defs/MetadataContact
 * Using the **Search for contact** tool guidance provided above, populate this table as many times as needed (one entry is common). 
 >NOTE: A bug in the GeoNetwork interface makes it necessary that a blank field be in the template. This appears in the table as a  "Point of contact" entry with "!Please remove" in as _Name_. After adding a valid contact to this table, remove this entry by clicking the red "X" that now will appear to the right on mouse over on this entry.      
