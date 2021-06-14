@@ -9,15 +9,15 @@ When creating metadata for services, it is recommended that one metadata record 
 
 ## Service
 ### Service Type - _A name identifying the type of service provided by the described resource_
-* ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ServiceType
+* **ICSM Guidance** - https://icsm-au.github.io/metadata-working-group/defs/ServiceType
 * One Service type entry **Must** be populated in a service metadata record.
     * The value of this field _Should_ be populated with a selection from the provided "Recommended values" dropdown.
     * If necessary, other values can be entered as free text.
 ### Service Type Version** - _Provides search based on the value of the service type_
-* ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ServiceTypeVersion
+* **ICSM Guidance** - https://icsm-au.github.io/metadata-working-group/defs/ServiceTypeVersion
 * One or more service type versions _Should_ be provided if useful to allow discovery and use of resources based on the version of the service provided.
 ### Coupling Type - _Documents the relation of the service to associated data_ 
-* ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/CouplingType
+* **ICSM Guidance** - https://icsm-au.github.io/metadata-working-group/defs/CouplingType
 * One selection **Must** be made from the three options provided in the dropdown - "Tight", "Loose" or "Mixed".
     * For tight couplings, a coupled resource **Must** be provided using the "Link to a dataset" button in the "Thumbnails & Distributions" sidebar section.
 
@@ -26,19 +26,19 @@ When creating metadata for services, it is recommended that one metadata record 
 
 
 ### Operation Name - _A unique identifier for this interface_
-* ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ContainsOperations.html
+* **ICSM Guidance** - https://icsm-au.github.io/metadata-working-group/defs/ContainsOperations.html
 * A name for the operation **Must** be provided in the provided text field.
 
 ### Distributed computing platform (DCP) - _DCP on which the operation has been implemented_
-* ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ContainsOperations.html
+* **ICSM Guidance** - https://icsm-au.github.io/metadata-working-group/defs/ContainsOperations.html
 * One value _Should_ be selected from provided dropdown.
 
 ### Operation Description - _Free text description of the intent and results of the operation_
-* ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ContainsOperations.html
+* **ICSM Guidance** - https://icsm-au.github.io/metadata-working-group/defs/ContainsOperations.html
 * Provided text entry field _Should_ be populated with a short description of the purpose of the service.
 
 ### Connect point - _Address for connecting to the described service interface_
-* ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ContainsOperations.html
+* **ICSM Guidance** - https://icsm-au.github.io/metadata-working-group/defs/ContainsOperations.html
 * Consist of the following fields:
     * **URL** - The address of the service endpoint **Must** be entered here.
     * **Protocol** - The protocol of the service _Should_be populated using the dropdown to the right of this field.
