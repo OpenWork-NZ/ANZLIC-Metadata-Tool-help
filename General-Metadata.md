@@ -57,7 +57,7 @@ The General tab holds most of the most common metadata for a resource. It consis
     * If useful, provide multiple entries.
     * For service resources, the service http endpoint URL _Should_ serve as a useful identifier.
 
-### _Description - _A textual description of the nature and purpose of the provided resource identifier_
+### Description - _A textual description of the nature and purpose of the provided resource identifier_
 * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceIdentifier
 * Recommended for all resource identifier entries
     * If a service endpoint, description _Should_ say "Service Endpoint URL"
