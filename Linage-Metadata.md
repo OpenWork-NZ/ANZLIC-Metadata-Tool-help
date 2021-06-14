@@ -9,5 +9,5 @@ This page has one section **Resource Lineage**
     * Or remove provided placeholder text if no lineage information is available and state why
 
 ### Source Description - _General explanation about the producer's knowledge about source information used to create the resource_
-* _ICSM Guidance_ - https://icsm-au.github.io/metadata-working-group/defs/ResourceLineage
+* **ICSM Guidance** - https://icsm-au.github.io/metadata-working-group/defs/ResourceLineage
 * Overwrite the message in the text box with details that provides useful source information about the resource.
