@@ -1,4 +1,6 @@
-# Service Tab (Only visible when editing Service Metadata records)
+# Service Tab 
+>Note: Only visible when editing Service Metadata records
+
 The Service tab holds most important additional metadata elements needed for a service resource. It consist of two sections:
 * **Service**
 * **Contains Operation**
