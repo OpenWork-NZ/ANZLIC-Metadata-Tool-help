@@ -32,7 +32,7 @@ The General tab holds most of the most common metadata for a resource. It consis
 * Select the most appropriate value from the provided dropdown selection, if any.
 
 ## Maintenance Information
-### **Maintenance and update frequency** - Frequency with which changes and additions are made to the resource after the initial resource is completed
+### **Maintenance and update frequency** - Frequency with which changes and additions are made to the resource
 * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/Maintenance
 * One value **Must** be selected from the provided dropdown list.
 ### **Date** - The date at which the last update to the resource was made.
