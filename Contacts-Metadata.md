@@ -10,7 +10,7 @@ This tool allows contacts to be selected from a list maintained by your administ
 This tool can be used in two ways -
 1. Simple search
     * In the "Search for contact" field, type the first few letters of the desired party.
-    * To the right of the desired entry select the appropriate role for the party by clicking either the "Chain link" ![Link icon](/image/chainlink.png) or "+" ![Add icon](/image/addIcon.png) icon. 
+    * To the right of the desired entry select the appropriate role for the party by clicking either the "Chain link" ![Link icon](/image/linkSelector.png) or "+" ![Add icon](/image/addSelector.png). 
     * A new entry will appear in the table.
 1. Advanced search
     * To the left of the "Search for contact" field, click the spyglass icon ![spygalss](/image/spyglass.png) to display the advanced search interface. ![Advanced contact search](/image/contactSearch)
