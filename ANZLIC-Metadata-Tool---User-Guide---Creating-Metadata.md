@@ -46,7 +46,7 @@
 
 ## Editing interface - Tools and Notation
 1. Mandatory elements are marked by a red asterisk
-1. Help for specific elements is available by clicking on the element name or field (Tooltips must be enabled)
+1. Help for specific elements is available by clicking on the element name or field (Tooltips **Must* be enabled)
 1. Deleting individual items - if a red X appears to the right of a line, this element may be deleted by clicking the red X
     1. Also applies to sections when allowed
 1. Page navigation aids. Useful for longer more complex metadata and small screens where visibility of all elements is difficult.
@@ -73,15 +73,15 @@ The General tab holds most of the most common metadata for a resource. It consis
         * Overwrite any placeholder text from the template
 * **Purpose** - _Optional_ - Summary of the intentions with which the resource was developed.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/Purpose
-    * Text box _May_ be populated with a single entry.
+    * Text box _Should_ be populated with a single entry.
         * Overwrite any placeholder text from the template
 * **Supplemental Information** - Any other descriptive information about the dataset.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/DataIdentification.html
-    * Text box _May_ be populated with a single entry.
+    * Text box _Should_ be populated with a single entry.
         * Overwrite any placeholder text from the template
 * **Topic category** - Main theme(s) of the dataset, selected from an official ISO list.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/TopicCategory
-    * Tagged entry field must be populated with at least one entry. 
+    * Tagged entry field **Must** be populated with at least one entry. 
         * Add entries by clicking in the field and selecting values from the dropdown list. 
         * Remove any unneeded entries by selecting the "x" next to its name.
 * **Status** - The lifecycle state of a resource. Selected from a progress code codelist.
@@ -97,7 +97,7 @@ The General tab holds most of the most common metadata for a resource. It consis
     * Use the provided date selector tools to populate. **Must** be populated if maintenance information is provided.
 * **Maintenance note** - Textual information about the last update committed to a resource.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/Maintenance
-    * This update note should include the name of the resource editor, when the update occurred and what changes were made.
+    * This update note _Should_ include the name of the resource editor, when the update occurred and what changes were made.
 
 ### Key Dates
 * **Date** - Important dates related to the resource.
@@ -110,30 +110,30 @@ The General tab holds most of the most common metadata for a resource. It consis
 ### Resource Identification
 * **Identifier** - A unique identifier for the resource describe by this metadata record. 
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceIdentifier
-    * At least one resource identifier should be provided. 
+    * At least one resource identifier _Should_ be provided. 
         * If useful, provide multiple entries.
-        * For service resources, the service http endpoint URL may serve as a useful identifier.
+        * For service resources, the service http endpoint URL _Should_ serve as a useful identifier.
 * **Description** - A textual description of the nature and purpose of the provided resource identifier.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceIdentifier
     * Recommended for all resource identifier entries
-        * If a service endpoint, description may say "Service Endpoint URL"
+        * If a service endpoint, description _Should_ say "Service Endpoint URL"
 ## Service Tab (Only visible when editing Service Metadata records)
 The Service tab holds most important additional metadata elements needed for a service resource. It consist of two sections:
 * Service
 * Contains Operation 
 
-When creating metadata for services, it is recommended that one metadata record be created for each service type provided by the resource. If a service offers a viewer and an API for data delivery, separate metadata records should be provided for each.
+When creating metadata for services, it is recommended that one metadata record be created for each service type provided by the resource. If a service offers a viewer and an API for data delivery, separate metadata records _Should_ be provided for each.
 
 ### Service
-* **Service Type** - A name identifying the type of service provided by the described resource. Should be sourced from a controlled vocabulary.
+* **Service Type** - A name identifying the type of service provided by the described resource. _Should_ be sourced from a controlled vocabulary.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ServiceType
     * One Service type entry **Must** be populated in a service metadata record.
-        * The value of this field should be populated with a selection from the provided "Recommended values" dropdown.
+        * The value of this field _Should_ be populated with a selection from the provided "Recommended values" dropdown.
         * If necessary, other values can be entered as free text.
 * **Service Type Version** - Provides search based on the value of the service type.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ServiceTypeVersion
-    * One or more service type versions _May_ be provided if useful to allow discovery and use of resources based on the version of the service provided.
-* **Coupling Type** - Documents the relation of the service to associated data. May be "Tight", "Loose" or "Mixed".
+    * One or more service type versions _Should_ be provided if useful to allow discovery and use of resources based on the version of the service provided.
+* **Coupling Type** - Documents the relation of the service to associated data. **Must** be "Tight", "Loose" or "Mixed".
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/CouplingType
     * One selection **Must** be made from the three options provided in the dropdown.
         * For tight couplings, a coupled resource **Must** be provided using the "Link to a dataset" button in the "Thumbnails & Distributions" sidebar section.
@@ -142,7 +142,7 @@ When creating metadata for services, it is recommended that one metadata record 
 * Each _Contains Operation_ instance describes one and only one method provided by the service.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ContainsOperations.html
     * **Operation Name** - A unique identifier for this interface.
-        * A name for the operation **Must ** be provided in the provided text field.
+        * A name for the operation **Must** be provided in the provided text field.
     * **Distributed computing platform (DCP)** - DCP on which the operation has been implemented
         * One value _Should_ be selected from provided dropdown.
     * **Operation Description** - Free text description of the intent and results of the operation.
@@ -154,12 +154,12 @@ When creating metadata for services, it is recommended that one metadata record 
     * **Function** - A value _Should_ be selected from the dropdown that aligns with the service purpose.
     * If additional connect points are needed for a service, the _Connect point_ "+" button will allow additional entries.
     * **Not Recommended** - Addition operations provided by a service can be documented by clicking on the _Contains Operation_ "+" button.
-        * EMA guidance states that there should be one metadata entry for each service type.
+        * EMA guidance states that there _Should_ be one metadata entry for each service type.
 
 ## Contacts
 This tab is used to capture:
-* Resource Contacts - Information about parties that have some responsibility to the resource described in the metadata.
-* Metadata Contacts - Information about parties that have some responsibility to the metadata record describing the resource.
+* **Resource Contacts** - Information about parties that have some responsibility to the resource described in the metadata.
+* **Metadata Contacts** - Information about parties that have some responsibility to the metadata record describing the resource.
 
 ### **Search for contact** tool guidance
 This tool allows contacts to be selected from a list maintained by your administrator. This improves consistency, searchability, correctness and eases population of responsible party information.
@@ -249,12 +249,12 @@ This tool allows keywords to be selected from a thesauri maintained by your admi
 
 ### Keywords
 * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/Keywords.html
-* Each template metadata record provides a selection of thesauri from which keywords should be selected.
+* Each template metadata record provides a selection of thesauri from which keywords _Should_ be selected.
     * For **Dataset** and *Service** metadata these include:
         * **Hazard type** - a list of common emergency management hazard types
         * **Continents, countries, sea regions of the world.** - an international list of locations 
             * Is a hierarchal thesaurus
-            * _May not be adequate to the local context. Consult your administrator_
+            * This thesaurus may not be suited to the local context. Consult your administrator_
         * **Dataset Method** - _Dataset only_ - Four options _Modelled, Observed, Modelled and Observed, and other_
         * **CAP-AU Compliance** - the nature of CAP compliance of the resource
     * For **Service** metadata additional keywords include:
@@ -299,8 +299,8 @@ The Spatial page consist of three separate sections.
 * **Reference System Information** - Displays a table of reference systems applicable to the resource.
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/SpatialReferenceSystem.html
     * A partially completed **Coordinate epoch** entry provides a way to capture information needed to account for coordinate drift due to earth plate techtonics.
-        * The date should hold, in decimal year format, the date of which the coordinates used were captured.
-        * _Reference system type_ and _Description_ should remain as prepopulated.
+        * The date _Should_ hold, in decimal year format, the date of which the coordinates used were captured.
+        * _Reference system type_ and _Description_ _should_ remain with the prepopulated values.
     * Appropriate additional references systems **Must** be added
         * Use the _Search for a reference system_ dialogue to select from a prepopulated list of applicable CRS
             * Search using the dropdown or
@@ -321,7 +321,7 @@ This tool allows constraints to be selected from a a managed directory maintaine
     * Clicking the "+" icon to the left presents a dropdown which allows the selection of _Constraints, Legal constraints_ or _Security constraints_.
         * Selecting _Constraints_ creates an entry for addition disclaimers and limitations to be entered.
         >NOTE: Do not create Legal or Security constraints using the "+" icon
-    * Legal and Security constraints may be selected using the searchable dropdown available by clicking the _Search by constraint statement ..._ field
+    * Legal and Security constraints _Should_ be selected using the searchable dropdown available by clicking the _Search by constraint statement ..._ field
 * Advanced usage
     * Click on the spyglass icon ![spyglass](/image/spyglass.png) 
     * Results may be restricted to either Legal or Security constraints by selecting the appropriate _Subtemplatetype_
@@ -337,12 +337,12 @@ This tool allows constraints to be selected from a a managed directory maintaine
 
 * **Legal Constraints** - A table of legal constraints that apply to the cited resource
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceLegalConstraints
-    * This table should be populated using the **Constraints selection** tool guidance above
+    * This table _Should_ be populated using the **Constraints selection** tool guidance above
     * The correct _Constraint application scope_ **Must** be selected the dropdown in the Legal constraints table
 
 * **Security Constraints** - A table of security constraints that apply to the cited resource
     * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ResourceSecurityConstraints
-    * This table should be populated using the **Constraints selection** tool guidance above
+    * This table _Should_ be populated using the **Constraints selection** tool guidance above
 
 ### Metadata constraints
 Metadata constraints are not as common as resource constraints and are often prepopulated in the template and do not need to be altered.
