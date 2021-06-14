@@ -1,9 +1,9 @@
 # General Tab
 The General tab holds most of the most common metadata for a resource. It consist of the following sections:
-* General Information
-* Maintenance Information 
-* Key Dates
-* Resource Identification
+* **General Information**
+* **Maintenance Information** 
+* **Key Dates**
+* **Resource Identification**
 
 ## General Information
 ### **Title** - The name by which the cited resource is known.
