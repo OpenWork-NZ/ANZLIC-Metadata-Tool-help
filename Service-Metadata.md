@@ -13,7 +13,7 @@
     * For tight couplings, a coupled resource **Must** be provided using the "Link to a dataset" button in the "Thumbnails & Distributions" sidebar section.
 
 ## Contains Operation 
->NOTE: Each _Contains Operation_ instance describes one and only one method provided by the service.
+>NOTE: Each _Contains Operation_ instance describes one and only one method provided by the service. By EMA guidance, there _Should_ be one metadata entry for each service type.
 
 
 ### Operation Name - _A unique identifier for this interface_
@@ -37,4 +37,4 @@
     * **Function** - A value _Should_ be selected from the dropdown that aligns with the service purpose.
 * If additional connect points are needed for a service, the _Connect point_ "+" button will allow additional entries.
 >Note: **Not Recommended** - Addition operations provided by a service can be documented by clicking on the _Contains Operation_ "+" button.
->Note: By EMA guidance, there _Should_ be one metadata entry for each service type.
+
