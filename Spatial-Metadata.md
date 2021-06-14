@@ -32,7 +32,7 @@ The Spatial page consist of three separate sections.
 * **ICSM Guidance** - https://icsm-au.github.io/metadata-working-group/defs/SpatialReferenceSystem.html
 * A partially completed **Coordinate epoch** entry provides a way to capture information needed to account for coordinate drift due to earth plate techtonics.
     * The date _Should_ hold, in decimal year format, the date of which the coordinates used were captured.
-    * _Reference system type_ and _Description_ _should_ remain with the prepopulated values.
+    * _Reference system type_ and _Description_ prepopulated values _Should_ remain.
 * Appropriate additional references systems **Must** be added
     * Use the _Search for a reference system_ dialogue to select from a prepopulated list of applicable CRS
         * Search using the dropdown or
