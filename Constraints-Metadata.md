@@ -26,12 +26,12 @@ Both Security and Legal constraints can be sourced using this tool.
 
 ### Legal Constraints - _A table of legal constraints that apply to the cited resource_
 * **ICSM Guidance** - https://icsm-au.github.io/metadata-working-group/defs/ResourceLegalConstraints
-* This table _Should_ be populated using the **Constraints selection** tool guidance above
+* This table _Should_ be populated using the [**Constraints selection**](https://github.com/OpenWork-NZ/mdwg/wiki/Constraints-Metadata#using-the-constraints-selection-tool) tool guidance above
     * The correct _Constraint application scope_ **Must** be selected the dropdown in the Legal constraints table
 
 ### Security Constraints - _A table of security constraints that apply to the cited resource_
 * **ICSM Guidance** - https://icsm-au.github.io/metadata-working-group/defs/ResourceSecurityConstraints
-* This table _Should_ be populated using the **Constraints selection** tool guidance above
+* This table _Should_ be populated using the [**Constraints selection**](https://github.com/OpenWork-NZ/mdwg/wiki/Constraints-Metadata#using-the-constraints-selection-tool) tool guidance above
 
 ### Metadata constraints
 Metadata constraints are not as common as resource constraints and are often prepopulated in the template and do not need to be altered.
