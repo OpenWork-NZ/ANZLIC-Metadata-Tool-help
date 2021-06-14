@@ -39,6 +39,7 @@ This tool allows keywords to be selected from a thesauri maintained by your admi
         * **ISO19119 Service Type** - **Must** be populated with at least one value from the provided thesaurus.
         * **Service Keyword** - Suggested keywords for the platform or standard describing the service.
 * **Descriptive keywords** (and Keyword Help) 
+
 ![Descriptive keywords](/image/descriptiveKeywords.png) 
     >NOTE: Keyword help (this page) can be accessed through the Tooltip available here.
     * Options:
