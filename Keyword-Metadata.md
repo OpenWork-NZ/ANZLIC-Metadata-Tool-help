@@ -39,7 +39,7 @@ This tool allows keywords to be selected from a thesauri maintained by your admi
         * **ISO19119 Service Type** - **Must** be populated with at least one value from the provided thesaurus.
         * **Service Keyword** - Suggested keywords for the platform or standard describing the service.
 * **Descriptive keywords** (and Keyword Help) ![Descriptive keywords](/image/descriptiveKeywords.png) 
-    >NOTE: Keyword help (this page) can be accessed through the Tooltip available here.
+    >NOTE: Keyword help (this page) can be accessed through the Tooltip available [here](https://github.com/OpenWork-NZ/mdwg/wiki/Keyword-Metadata#using-the-keyword-thesaurus-tool).
     * Options:
         * **Choose keywords from thesaurus** - provides a list of available thesauri. Selected thesaurus will be added to the page for further selection.
         * **Add new keyword** - allows the addition of free-text keywords. _Use Sparingly!_ 
