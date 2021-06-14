@@ -13,7 +13,7 @@ This tool can be used in two ways -
     * To the right of the desired entry select the appropriate role for the party by clicking either the "Chain link" ![Link icon](images/linkSelector.png) or "+" ![Add icon](images/addSelector.png). 
     * A new entry will appear in the table.
 1. Advanced search
-    * To the left of the "Search for contact" field, click the spyglass icon ![spygalss](images/spyglass.png) to display the advanced search interface. ![Advanced contact search](images/contactSearch)
+    * To the left of the "Search for contact" field, click the spyglass icon ![spyglass](images/spyglass.png) to display the advanced search interface. ![Advanced contact search](images/contactSearch)
     * **Narrowing your search -** Searches can be narrowed in two ways
         * Using the "Search for contact" field, at the top of the popup as you would in Simple search
         * Using the _Facets_ in the left sidebar, select the category appropriate to the party 
