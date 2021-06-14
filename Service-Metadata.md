@@ -1,3 +1,10 @@
+# Service Tab (Only visible when editing Service Metadata records)
+The Service tab holds most important additional metadata elements needed for a service resource. It consist of two sections:
+* **Service**
+* **Contains Operation**
+
+When creating metadata for services, it is recommended that one metadata record be created for each service type provided by the resource. If a service offers a viewer and an API for data delivery, separate metadata records _Should_ be provided for each.
+
 ## Service
 ### Service Type - _A name identifying the type of service provided by the described resource_
 * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ServiceType
