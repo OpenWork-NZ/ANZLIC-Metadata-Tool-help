@@ -50,4 +50,5 @@ If a party is not available via search, do the following:
 ### Contact - _Contact information for those parties that hold responsibilities related to the metadata record and its maintenance_ 
 >NOTE: Not to be used for resource contact information
 * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/MetadataContact
-* Using the **Search for contact** tool guidance provided above, populate this table as many times as needed (one entry is common). >NOTE: A bug in the GeoNetwork interface makes it necessary for their to be a blank record in the template. This appears in the table as a  "Point of contact" entry with "!Please remove" in as _Name_. After adding a valid contact to this table, remove this entry by clicking the red "X" that now will appear to the right on mouse over on this entry.      
+* Using the **Search for contact** tool guidance provided above, populate this table as many times as needed (one entry is common). 
+>NOTE: A bug in the GeoNetwork interface makes it necessary that a blank field be in the template. This appears in the table as a  "Point of contact" entry with "!Please remove" in as _Name_. After adding a valid contact to this table, remove this entry by clicking the red "X" that now will appear to the right on mouse over on this entry.      
