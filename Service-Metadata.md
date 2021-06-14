@@ -8,9 +8,9 @@
 * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/ServiceTypeVersion
 * One or more service type versions _Should_ be provided if useful to allow discovery and use of resources based on the version of the service provided.
 ### Coupling Type - _Documents the relation of the service to associated data_ 
-    * ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/CouplingType
-    * One selection **Must** be made from the three options provided in the dropdown - "Tight", "Loose" or "Mixed".
-        * For tight couplings, a coupled resource **Must** be provided using the "Link to a dataset" button in the "Thumbnails & Distributions" sidebar section.
+* ICSM Guidance - https://icsm-au.github.io/metadata-working-group/defs/CouplingType
+* One selection **Must** be made from the three options provided in the dropdown - "Tight", "Loose" or "Mixed".
+    * For tight couplings, a coupled resource **Must** be provided using the "Link to a dataset" button in the "Thumbnails & Distributions" sidebar section.
 
 ## Contains Operation 
 >NOTE: Each _Contains Operation_ instance describes one and only one method provided by the service.
