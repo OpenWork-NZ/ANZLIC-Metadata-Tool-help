@@ -28,7 +28,7 @@ This tool allows keywords to be selected from a thesauri maintained by your admi
         * In the upper right, the "Previous" button ![Previous concepts](/images/previousConcepts.png) displays a selectable list of previously viewed concepts
 
 ## Keywords
-* **[ICSM Guidance](https://icsm-au.github.io/metadata-working-group/defs/Keywords.html)** - https://icsm-au.github.io/metadata-working-group/defs/Keywords.html
+* **[ICSM Guidance](https://openwork-nz.github.io/mdwg/defs/Keywords.html)** - https://openwork-nz.github.io/mdwg/defs/Keywords.html
 * Each template metadata record provides a selection of thesauri from which keywords _Should_ be selected.
     * For **Dataset** and **Service** metadata these include:
         * **Hazard type** - a list of common emergency management hazard types
