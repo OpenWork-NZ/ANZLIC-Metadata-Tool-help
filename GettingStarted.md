@@ -69,7 +69,7 @@ This help document can be accessed in two ways:
     
 [**GeoNetwork help**](https://geonetwork-opensource.org/manuals/trunk/en/index.html) is available at https://geonetwork-opensource.org/manuals/trunk/en/index.html.
 
-[**ICSM Best Practice**](https://geonetwork-opensource.org/manuals/trunk/en/index.html) guide for ISO19115-3 metadata is available at https://geonetwork-opensource.org/manuals/trunk/en/index.html
+[**ICSM Best Practice**](https://openwork-nz.github.io/mdwg) guide for ISO19115-3 metadata is available at https://openwork-nz.github.io/mdwg
 
 # Navigating the Editing Window
 ![ANZLIC Editor screenshot](/images/editing-view.png)
