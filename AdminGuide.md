@@ -28,7 +28,7 @@ The other _View selector_ options work as described in [GeoNetwork Documentation
 
 While the **ANZLIC Metadata tool** does not mandate metadata workflows, it is recommend that a _Reviewer_ role be implemented.
 
-Best practice is that metadata editors do not publish their own metadata. Metadata should be reviewed and published by someone with the role of _Reviewer_ or higher.  ENSEMA has committed to implementing this pattern. 
+Best practice is that metadata editors do not publish their own metadata. Metadata should be reviewed and published by someone with the role of _Reviewer_ or higher. 
 
 A Reviewer can publish a metadata record by viewing that record and selecting the **Publish** in the **View** top tool bar.
 ![Manage Record](./images/ManageRecord.png)
@@ -72,21 +72,10 @@ The **ANZLIC Metadata tool** includes several of these **Managed directories**:
   * A method by which editors can notify administrators that a contact needs to be added or corrected is recommended.
 
 ### Thesaurus Management
-The prorovided EMA template metadata records, which provide the framework for all EMA metadata, rely on certain thesauri being avalible to populate Keywords metadata.
 
 General guidance for managing thesuri can be found at this [GeoNetwork help page](https://geonetwork-opensource.org/manuals/3.10.x/en/administrator-guide/managing-classification-systems/managing-thesaurus.html).
 
 Administrators can access the thesaurus management tools by selecting **Classification systems** from the **Admin console** menu availble from the  top toolbar on the main screen. ![Thesaurus access](./images/ThesaurusMgnAccess.png).
-
-At the completion of the instalation following the provided instructions, there are five thesauri loaded to support the  **ANZLIC Metadata tool**. These include
-
-For **Dataset** and **Service** metadata these include:
-* **Hazard type** - Contains a list of common emergency management hazard types
-* **Process type** - _For dataset metadata only_ - Four options _Modelled, Observed, Modelled and Observed, and other_
-* **CAP-AU Compliance** - Keywords that capture the nature of CAP compliance of the resource, _CAP-AU Compliant, CAP-AU incompliant, and CAP-AU unknown_
-For **Service** metadata additional keywords include:
-* **ISO19119 Service Type** - Provides a enumeration of values of which at least one **Must** populatea service metadata
-* **Protocol Type** - Suggested list of keywords for the software, platform and/or standard describing the service.
 
 ### Users, Groups and Profiles
 Geonetwork user management implies some highly recommened workflow rules. It is the administrators task to manage these. Instructions to do so can be found in the [GeoNetwork help pages here](https://geonetwork-opensource.org/manuals/3.10.x/en/administrator-guide/managing-users-and-groups/index.html).
@@ -95,9 +84,9 @@ Configuring GeoNework to use enteprise authentication tools such as LDAP can be 
 
 ### Template Management
 
-Templates metadata support included in GeoNetwork. Most metadata is very similar to existing metadata records save for a relatively small number of fields. GeoNetwork leverages this fact by providing a flexible system of templates to provide a powerful tool to ease the creation of metadata. Two template records are provided with the EMA version of the **ANZLIC Metadata tool**:
-* **Emergency Management Dataset Template** - for the creation of basic EMA dataset metadata and
-* **Emergency Management Service Template** - for the creation of basic EMA geospation service metadata.
+Templates metadata support included in GeoNetwork. Most metadata is very similar to existing metadata records save for a relatively small number of fields. GeoNetwork leverages this fact by providing a flexible system of templates to provide a powerful tool to ease the creation of metadata. Two template records are provided with the **ANZLIC Metadata tool**:
+* **ANZMet Lite Dataset Template** - for the creation of basic ANZLIC dataset metadata and
+* **ANZMet Lite Service Template** - for the creation of basic ANZLIC geospation service metadata.
 
 Administrators may find it useful to create more refined versions of these templates to ease the creation of metadata for specific common resources. As comfort in the use of the tool increases, the desire to do so may increase. Editors too can create new template variations, but like metadata, these need to go through a publishing process to be accessible by a wide number of users.
 

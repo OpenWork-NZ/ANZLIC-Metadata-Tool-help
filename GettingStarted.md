@@ -1,7 +1,13 @@
 # Getting Started 
 
 ## Steps
+Before using the ANZMetLite v2 metadata editor, a user must first create an account. This can be done by by selecting **Create an account** under the **Sign in** dropdown. ![CreateAccount](./images/CreateAccount.png)
+Fill in the form with *Editor* as **Requested profile**. Required fields are **Name**, **Surname**, and **Email**. ![NewAccountForm](./images/NewAccountForm.png)
+Your email address will become your user name.
+You will receive an email containing your new password.
+Within one business day, an administrator will enable *Editor* privileges.
 
+It is recommended that you change your password on first log in.
 ### Step One - Sign in 
 1. Sign in by clicking "Sign in" in the toolbar and entering your credentials. ![Sign in](./images/SignIn.png)
 >NOTE: To edit metadata using the ANZLIC Metadata Tool, you will first need a user account with sufficient permission. If you do not have one, ask your administrator for help
@@ -12,7 +18,7 @@
 	1. Templates are stored by the types shown in the left hand column. **Dataset** templates will be shown by default.
 	1. To select a template for **Service** metadata, select **Service** in the left had column
 1. Select the desired template from the second column.
->NOTE: For default EMA installations, the **Emergency Management Dataset Template** should be used for dataset metadata. For service records, the **Emergency Management Service Template** should be used. Your administrator may see fit to provide variations of these templates for specific resource metadata.	
+>NOTE: For default  installations, the **ANZMet Lite Dataset Template** should be used for dataset metadata. For service records, the **ANZMet Lite Service Template** should be used. Your administrator may see fit to provide variations of these templates for specific resource metadata.	
 1. If you have membership in multiple groups, you can select the appropriate group for this metadata record in the third column.
 1. Clinking the green **Create** button in the forth column will launch your new metadata record in the _ANZLIC Editor_ window.
 
