@@ -5,7 +5,10 @@ Before using the ANZMetLite v2 metadata editor, a user must first create an acco
 
 ![CreateAccount](./images/CreateAccount.png)
 
-Fill in the form with *Editor* as **Requested profile**. Required fields are **Name**, **Surname**, and **Email**. ![NewAccountForm](./images/NewAccountForm.png)
+Fill in the form with *Editor* as **Requested profile**. Required fields are **Name**, **Surname**, and **Email**. 
+
+![NewAccountForm](./images/NewAccountForm.png)
+
 Your email address will become your user name.
 You will receive an email containing your new password.
 Within one business day, an administrator will enable *Editor* privileges.
