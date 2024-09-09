@@ -1,7 +1,10 @@
 # Getting Started 
 
 ## Steps
-Before using the ANZMetLite v2 metadata editor, a user must first create an account. This can be done by by selecting **Create an account** under the **Sign in** dropdown. ![CreateAccount](./images/CreateAccount.png)
+Before using the ANZMetLite v2 metadata editor, a user must first create an account. This can be done by by selecting **Create an account** under the **Sign in** dropdown. 
+
+![CreateAccount](./images/CreateAccount.png)
+
 Fill in the form with *Editor* as **Requested profile**. Required fields are **Name**, **Surname**, and **Email**. ![NewAccountForm](./images/NewAccountForm.png)
 Your email address will become your user name.
 You will receive an email containing your new password.
