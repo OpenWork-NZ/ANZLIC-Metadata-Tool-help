@@ -1,4 +1,4 @@
-# ANZLIC Metadata Toool Admin Guide
+# ANZLIC Metadata Tool Admin Guide
 
 Intro - 
 This document covers issues that are beyond the role of a basic metadata editor. These include:
