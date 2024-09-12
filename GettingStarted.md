@@ -14,9 +14,10 @@ You will receive an email containing your new password.
 Within one business day, an administrator will enable *Editor* privileges.
 
 It is recommended that you change your password on first log in.
+
+>NOTE: This editor only supports metadata based on ISO 19115-3. It is not designed to support the editing of metadata based on ISO 19139 or the old ANZLIC Profile.
 ### Step One - Sign in 
 1. Sign in by clicking "Sign in" in the toolbar and entering your credentials. ![Sign in](./images/SignIn.png)
->NOTE: To edit metadata using the ANZLIC Metadata Tool, you will first need a user account with sufficient permission. If you do not have one, ask your administrator for help
 
 ### Step Two - Select a template
 1. Under the **Contribute** option in the top toolbar and select **Add new record.** ![Add new record](./images/AddNew.png)
@@ -49,29 +50,48 @@ To start editing a metadata record, work through the tabs from left to right. Cl
 	1. A set of suggestions to correct any errors appears 
 Follow GeoNetwork guidance
 
-### Step 4a - Assign Category (Optional)
+#### Assign Category (Optional)
 1. Click the **Categories** button in the editor top menu.
 1. A list of of categories from which one _Should_ choose that broadly categorises the the resource. 
 >NOTE: This is a GeoNetwork provided list that helps with the management of metadata records. The values are stored separately to the ISO19115-3 metadata record.
 
-### Step 4b - Group (Optional)
-1. If you wish to assign your metadata to a different group, click **Group** in the editor top menu.
->NOTE: You can only assign metadata to groups of which you are a member. Talk with your administraor for more help.
-
-### Step 5 - Save and close
+### Step Five - Save and close
+At any point in your edit process you may save and close your edited record> This may be because you are complete with your edits, or you wish to continue editing this record at a later time.
+To do so, click the **Save and Close**
 * Record is not published 
 * Notify your reviewer that the metadata is ready for review.
 	* This process may be automated if GeoNetwork workflow tools are enabled 
 * Your adminstrator or reviewer will do this
 
-**Workflow**
-To notify your reviewer that the metadata is ready for review and publishing, in the **Metadata view** for a selected record, select **Submit for review**. ![Submit for review](./images/EditorMngRecord.png)
+### Step Six - Download Metadata
+ANZMetLive v2, while built on GeoNetwork pensource, a complete metadata catalogue, is designed with the express purpose of creating metadata that conforms to ICSM Metadata Best Practicce Guidance. 
+Users should not expect their metadata to persist or be published through this tool.
+Metadata creators are expected to download their metadata for publication in other tools.
 
->NOTE: You may need first to **Enable workflow** by selecting that option under the same menu. ![Enable workflow](./images/EnableWorkflow.png)
+The procedure for downloading metadata is as follows:
 
-A interface appears where you can add details to your review request. ![Submit for review](./images/Submission.png)]
+![Download Metadata](./images/DownloadMetadata.png)
 
-The reviewers for your group will be notified that your metadata is ready to be reviewed and published.
+1. Find and select your metadata record for viewing. Click the **Download** tab and select either
+   * **Export (ZIP)** to download your metadata with any attacehed resource (thumbnails, etc.) you may have included 
+	* **Export (XML)** to download the ISO 19115-3 record only.
+1. Optionaly, you may select 
+   * **Export (PDF)** to download a PDF version of your metadata or
+   * **Export (JSON)** to download a file in schema.org JSON-LD compatible format.
+1. The search interface provides additional download options
+	1. Export multiple records
+		* Filter "Only my records" by selecting this option in the filters.
+		* Click the three sliders icon to the right of the search box. 
+		* Select **Only my records** and click the three sliders icon
+		  ![MyRecords](./images/MyRecords.png)
+		* Click search. This limits the results to records you created or own
+		  ![MySelectedRecords](./images/MyRecords-Selected.png)
+  	1. Click the Check box above the results and select **All**
+	1. Click selected to view options. Note - Exporting through this menu allows the downloading of multiple records as one package
+	   ![MultipleSelectedOption](./images/MultipleSelectedOption.png)
+		* **Export (ZIP)** to download your metadata as a collection including any attacehed resource (thumbnails, etc.) 
+		* **Export (ONDC)** exports the collected metadata as a csv spreadsheet of metadata according to the ONDC guidance
+
 
 ## Getting Help
 This help document can be accessed in two ways:
