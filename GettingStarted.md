@@ -16,6 +16,7 @@ Within one business day, an administrator will enable *Editor* privileges.
 It is recommended that you change your password on first log in.
 
 >NOTE: This editor only supports metadata based on ISO 19115-3. It is not designed to support the editing of metadata based on ISO 19139 or the old ANZLIC Profile.
+
 ### Step One - Sign in 
 1. Sign in by clicking "Sign in" in the toolbar and entering your credentials. ![Sign in](./images/SignIn.png)
 
@@ -25,7 +26,9 @@ It is recommended that you change your password on first log in.
 	1. Templates are stored by the types shown in the left hand column. **Dataset** templates will be shown by default.
 	1. To select a template for **Service** metadata, select **Service** in the left had column
 1. Select the desired template from the second column.
->NOTE: For default  installations, the **ANZMet Lite Dataset Template** should be used for dataset metadata. For service records, the **ANZMet Lite Service Template** should be used. Your administrator may see fit to provide variations of these templates for specific resource metadata.	
+   > 
+	>NOTE: For default  installations, the **ANZMet Lite Dataset Template** should be used for dataset metadata. For service records, the **ANZMet Lite Service Template** should be used. Your administrator may see fit to provide variations of these templates for specific resource metadata.	
+
 1. If you have membership in multiple groups, you can select the appropriate group for this metadata record in the third column.
 1. Clinking the green **Create** button in the forth column will launch your new metadata record in the _ANZLIC Editor_ window.
 
