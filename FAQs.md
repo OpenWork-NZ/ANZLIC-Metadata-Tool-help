@@ -29,6 +29,7 @@
    Instructions for doing so are available [here](https://openwork-nz.github.io/ANZLIC-Metadata-Tool-help/GettingStarted.html#step-six---download-metadata)
 
 1. ***Is ANZMetLite v2 open source? Can I install the ANZMetLite editor in my own GeoNetwork instance? How can I access the code?***
+   
    This ANZMetLite v2 deployment is a fork of GeoNetwork opensource 4.2.5. As such, it is published under the same opensource GPL license. This code is free to use and may be accessed here.
 
    ANZMetLite v2 was created by OpenWork Ltd on behalf of and with guidance and contributions from the ICSM Metadata Working Group.

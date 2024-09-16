@@ -83,17 +83,22 @@ The procedure for downloading metadata is as follows:
    * **Export (JSON)** to download a file in schema.org JSON-LD compatible format.
 1. The search interface provides additional download options
 	1. Export multiple records
-		* Filter "Only my records" by selecting this option in the filters.
-		* Click the three sliders icon to the right of the search box. 
-		* Select **Only my records** and click the three sliders icon
-		  ![MyRecords](./images/MyRecords.png)
-		* Click search. This limits the results to records you created or own
-		  ![MySelectedRecords](./images/MyRecords-Selected.png)
-  	1. Click the Check box above the results and select **All**
-	1. Click selected to view options. Note - Exporting through this menu allows the downloading of multiple records as one package
-	   ![MultipleSelectedOption](./images/MultipleSelectedOption.png)
-		* **Export (ZIP)** to download your metadata as a collection including any attacehed resource (thumbnails, etc.) 
-		* **Export (ONDC)** exports the collected metadata as a csv spreadsheet of metadata according to the ONDC guidance
+		* Filter "Only my records" by selecting this option in the filters as described in **Search for My Metadata** below
+		* Click the Check box above the results and select **All**
+		* Click selected to view options. Note - Exporting through this menu allows the downloading of multiple records as one package
+	   		![MultipleSelectedOption](./images/MultipleSelectedOption.png)
+			* **Export (ZIP)** to download your metadata as a collection including any attacehed resource (thumbnails, etc.) 
+			* **Export (ONDC)** exports the collected metadata as a csv spreadsheet of metadata according to the ONDC guidance
+
+## Search for My Metadata
+
+1. Access the *Search* window by cliking **Search** in the top toolbar.
+1. In the new window, select the three sliders icon to the right of the seach field and icon.
+1. Select **Only my records** and click the three sliders icon to dismiss this form
+![MyReocords](./images/MyRecords.png)
+1. Click search. This limits the results to records you created or own
+   ![MySelectedRecords](./images/MyRecords-Selected.png)
+1. These results can be further filtered by using entering terms in the search box and clicking the spyglass icon.
 
 ## Upload Metadata
 The ANZMetLite v2 may also be used to validate metadata created elswhere. 
