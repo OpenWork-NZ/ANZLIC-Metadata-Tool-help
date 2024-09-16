@@ -24,7 +24,13 @@
    No. ANZMetLite v2 administrators may remove old metadata from time to time, as required to improve the experience of metadata creation.
    While the ANZMetLite v2 provides all the capabilities of a GeoNetwork metadata catalogue, its purpose is limited to the creation of ISO 19115-3:2018 compliant metadata. Editors cannot use AMZMetLite v2 for the purpose of publishing metadata. It is only intended for metadata creation. As such, users are advised to download any metadata the wish to save or publish and do so in their choice of alternate management and publishing services.
 1. ***How do I export my metadata from ANZMetLite v2?***
+   
+   It is expected that users will download metadata created in ANZMetLite v2. 
+   Instructions for doing so are available [here](https://openwork-nz.github.io/ANZLIC-Metadata-Tool-help/GettingStarted.html#step-six---download-metadata)
 
-1. ***Can i install the ANZMetLite editor in my own GeoNetwork instance?***
+1. ***Is ANZMetLite v2 open source? Can I install the ANZMetLite editor in my own GeoNetwork instance? How can I access the code?***
+   This ANZMetLite v2 deployment is a fork of GeoNetwork opensource 4.2.5. As such, it is published under the same opensource GPL license. This code is free to use and may be accessed here.
 
-1. ***Is ANZMetLite v2 open source? How can I access the code?***
+   ANZMetLite v2 was created by OpenWork Ltd on behalf of and with guidance and contributions from the ICSM Metadata Working Group.
+
+   OpenWork is responible for support and maintenance of this tool. OpenWork my be contacted at support_anzmetlite@openwork.nz.
