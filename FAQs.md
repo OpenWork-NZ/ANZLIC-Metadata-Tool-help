@@ -18,7 +18,7 @@
    Yes! The ANZMetLite v2 may also be used to validate metadata created elswhere.
    Or it may also be used to programatlically convert metadata in the ANZLIC Profile (or other metadata encoded in ISO 19139) to ISO 19115-3:2018.
    Once uploaded, ANZMetLite v2 can be used to validate and edit these metadata.
-   
+   Help for uploading metadata is available [here](https://openwork-nz.github.io/ANZLIC-Metadata-Tool-help/GettingStarted.html#upload-metadata).
 1. ***Can we use ANZMetLite v2 to store and share our metadata?***
    
    No. ANZMetLite v2 administrators may remove old metadata from time to time, as required to improve the experience of metadata creation.
