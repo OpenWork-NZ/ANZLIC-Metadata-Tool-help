@@ -95,6 +95,22 @@ The procedure for downloading metadata is as follows:
 		* **Export (ZIP)** to download your metadata as a collection including any attacehed resource (thumbnails, etc.) 
 		* **Export (ONDC)** exports the collected metadata as a csv spreadsheet of metadata according to the ONDC guidance
 
+## Upload Metadata
+The ANZMetLite v2 may also be used to validate metadata created elswhere. 
+Or it may also be used to programatlically convert metadata in the ANZLIC Profile (or other metadata encoded in ISO 19139) to ISO 19115-3:2018.
+Once uploaded, ANZMetLite v2 can be used to validate and edit these metadata.
+1. Click on **Contribute** tab and select **Import new records**
+![ImportRecords](./images/ImportRecord.png)
+1. In the new form, Drag and drop you metadata record onto the green **Upload to public datastore** bar.
+1. Make sure the **Type of record** is *Metadata*
+1. **Apply XSLT conversion** should be blank unless
+	* You wish to convert a ISO 19139 (or ANZLIC Profile) metadata record
+	* In this case, set this field to *schema:iso19115-3:2018convert/fromISO19139*
+	![ImportForm](./images/ImportForm.png)
+1. Leave other fields as default values
+1. Click import. Wait for success message. Now you may search for, select, validate and edit your uploaded metadata.
+
+	
 
 ## Getting Help
 This help document can be accessed in two ways:
