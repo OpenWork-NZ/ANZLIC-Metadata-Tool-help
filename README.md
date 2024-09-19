@@ -1,6 +1,7 @@
 # User Guide - Creating Metadata
 ## Getting Started
 - [Getting Started](./GettingStarted.md)
+  - [Accounts and Passwords](./Change-Password.md)
   - [Steps by Step editing](./GettingStarted.md#steps)
   - [Help](GettingStarted.md#getting-help)
 - [Navigating the Editor](GettingStarted.md#navigating-the-editing-window)

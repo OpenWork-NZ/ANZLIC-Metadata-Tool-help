@@ -1,7 +1,7 @@
 ANZLIC Metadata tool - Editor  
 # Introduction
 ## Help 
-- General Tap - [General tab](./General-Metadata.md)
+- [General tab](./General-Metadata.md)
   - [General information](./General-Metadata.md#general-information)
   - [Maintenance Information](./General-Metadata.md#maintenance-information)
   - [Key Dates](./General-Metadata.md#key-dates)

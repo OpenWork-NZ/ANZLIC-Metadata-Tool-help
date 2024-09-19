@@ -20,6 +20,7 @@ It is recommended that you change your password on first log in.
 ### Step One - Sign in 
 1. Sign in by clicking "Sign in" in the toolbar and entering your credentials. ![Sign in](./images/SignIn.png)
 
+> Note - To change your password or altdr account information, floow the instructions at [*Change Password*](Change-Password.md)
 ### Step Two - Select a template
 1. Under the **Contribute** option in the top toolbar and select **Add new record.** ![Add new record](./images/AddNew.png)
 1. A new window will appear where you can find and select your starting template record. ![Template select](./images/TemplateSelect.png)
