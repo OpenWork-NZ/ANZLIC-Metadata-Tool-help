@@ -1,6 +1,6 @@
 # Change Your Password
 
-To change you password you mist first log in by clicking on *Sign in* and entering your username and password.
+To change you password you mist first log in by clicking on **Sign in** and entering your username and password.
 
 ![Sign in](./images/SignIn.png)
 
@@ -15,17 +15,17 @@ Click on your name to access your account.
 
 ![AccountAccess](./images/AccountAccess.png)
 
-Now click on your name under *Users* to open your account information.
+Now click on your name under **Users** to open your account information.
 
 ![AccountInfo](./images/AccountInfo.png)
 
 Here you can edit your account information.
-To change your password, click the *Reset password* button in the upper right of this form.
+To change your password, click the **Reset password** button in the upper right of this form.
 This open a popup window where you can enter your new credentials.
 
 ![ResetPassword](./images/ResetPassword.png)
 
-Enter information as indicated and click the *Reset password* button in the Lower right of the form when done.
+Enter information as indicated and click the **Reset password** button in the Lower right of the form when done.
 
 
 

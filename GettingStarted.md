@@ -69,7 +69,7 @@ To do so, click the **Save and Close**
 
 ### Step Six - Download Metadata
 ANZMetLive v2, while built on GeoNetwork pensource, a complete metadata catalogue, is designed with the express purpose of creating metadata that conforms to ICSM Metadata Best Practicce Guidance. 
-Users should not expect their metadata to persist or be published through this tool.
+Publishing of metadata for discovery by outside parties is not supported.
 Metadata creators are expected to download their metadata for publication in other tools.
 
 The procedure for downloading metadata is as follows:
@@ -93,6 +93,20 @@ The procedure for downloading metadata is as follows:
 
 ## Search for My Metadata
 
+It is useful to limit search to one's own records. 
+This editor conbtains metadata of many users which may make difficult the finding of one's own previous metadata.
+Fortunately is is simple to limit the search to return only those records which you own.
+
+### Editor Board
+The easiest way to do this is via the **Editor board** which, by default, limits the records returned to those the logged in editor owns.
+
+1. Click **Contribute** in the top menu bar and select **Editor board**.
+  ![AccessEditorBoard](./images/AccessEditorBoard.png)
+
+1. The resuls pain will be limited to records you own.
+  ![EditorBoard](./images/EditorBoard.png)
+   
+### Search Window
 1. Access the *Search* window by cliking **Search** in the top toolbar.
 1. In the new window, select the three sliders icon to the right of the seach field and icon.
 1. Select **Only my records** and click the three sliders icon to dismiss this form

@@ -4,7 +4,9 @@ ANZMetLite v2 provides a tool to simplify the creation of metadata according to 
 The metadata standard it supports is ISO 19115-3:2018 and the GNSS Profile of ISO 19115-3:2018.
 This tool may be considered as a replacemnt for the desktop ANZMetLite tool which provided a metadata editor for the now retired ANZLIC Profile of ISO19115:2004.
 
-ANZMetLite v2 does not support the ANZLIC Profile of ISO19115:2004 or ISO 19139 encoded metadata in general.
+ANZMetLite v2 is not designed support the ANZLIC Profile of ISO19115:2004 or ISO 19139 encoded metadata in general.
+However, it also does not prohibit the use of this standard.
+And tools are provided that allow the conversion of metadata in this older format to be converted to ISO19115=3.
 
 While the ANZMetLite v2 provides all the capabilities of a GeoNetwork metadata catalogue, its purpose is limited to the creation of ISO 19115-3:2018 compliant metadata.
 Editors cannot use AMZMetLite v2 for the purpose of publishing metadata.
